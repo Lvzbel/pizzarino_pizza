@@ -17,7 +17,7 @@ mix
   .sass("src/app.scss", "dist")
   .setPublicPath("dist")
   .browserSync({
-    proxy: "theme.test",
+    proxy: "pizzarino.local",
     files: ["./**/*.php", "src/**/*.js", "src/**/*.scss"],
   });
 
