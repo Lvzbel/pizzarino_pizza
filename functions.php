@@ -2,6 +2,8 @@
 
 // Enqueue Styles and Scripts
 function add_theme_scripts() {
+  // Google fonts
+  wp_enqueue_style( 'google_fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap', array(), '1.0.0', 'all');
   // BooStrap
   wp_enqueue_script( 'bootstrap_script', get_template_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.min.js', array ('jquery'), '1.0.0', true);
   // Vendor CSS
