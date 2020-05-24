@@ -2,9 +2,10 @@
 @import "~sanitize.css";
 @import "~sanitize.css/forms.css";
 @import "~sanitize.css/typography.css";
+@import "./sass/abstracts/variables";
 $theme-colors: (
-  "primary": #0074d9,
-  "secondary": #fe2813,
+  "primary": $color-primary,
+  "secondary": $color-secondary,
 );
 
 @import "node_modules/bootstrap/scss/bootstrap";
