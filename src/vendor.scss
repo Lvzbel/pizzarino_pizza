@@ -7,5 +7,6 @@ $theme-colors: (
   "primary": $color-primary,
   "secondary": $color-secondary,
 );
+$font-size-base: 1.6rem;
 
 @import "node_modules/bootstrap/scss/bootstrap";
